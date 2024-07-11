@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container-heading {
+    margin: 0;
+    background-image: url('./Group\ 2.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 85vh;
+    color: white;
+}
+
+.container-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    }
+
+.container-title {
+    padding: 60px;
+}
+
+.container-title h1 {
+    font-size: 50px;
+}
+
+.container-title p {
+    font-size: 18px;
+    margin-top: -30px;
+}
+
+.container-button {
+    padding: 20px;
+}
+
+.btn {
+    padding-block: 14px;
+    padding-inline: 10px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-primary {
+    border-color: white;
+    color: white ;
+}
+
+.container-button a {
+    text-decoration: none;
+}

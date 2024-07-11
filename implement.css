@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container-link {
+    width: 500px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.items-link {
+    background-color: white;
+    width: 500px;
+    height: 50px;
+
+    box-shadow: 5px 10px rgb(250, 1, 209);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+}
+
+.items-link:hover {
+    background-color: rgb(200, 193, 199);
+    transition-duration: 400ms;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    background-color: rgb(247, 179, 231);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
